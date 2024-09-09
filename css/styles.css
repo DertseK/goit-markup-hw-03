@@ -211,10 +211,10 @@ ul {
     letter-spacing: 0.02em;
     text-align: left;
 }
-.dashead {
+.head {
     border-bottom: 1px solid #e7e9fc;
 }
-.dashead .container {
+.head .headcon {
     display: flex;
     justify-content: space-between;
 }
