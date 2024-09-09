@@ -247,11 +247,11 @@ ul {
     display: flex;
     justify-content: space-between;
 }
-/*
-.head .headlogo {
 
+.head .headlogo {
+    margin-right: 76px;
 }
-*/
+
 .headnav {
     display: flex;
     align-items: center;
