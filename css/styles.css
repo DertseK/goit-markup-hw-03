@@ -1,3 +1,4 @@
+/* glob */
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
@@ -15,18 +16,29 @@ a{
 img {
     display: block;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
 ul {
     list-style: none;
 }
+/* loc */
+.container {
+    max-width: 1158px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
 .logo {
-/*    font-family: "Raleway",
-        sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4d5ae5; */
     line-height: 1.17;
     font-family: "Raleway", sans-serif;
     text-transform: uppercase;
@@ -52,12 +64,6 @@ ul {
     color: #404bbf;
 }
 .adress {
-    /*
-    font-style: normal;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455; */
-
     font-style: normal;
     font-family: Roboto;
     font-size: 16px;
@@ -66,7 +72,6 @@ ul {
     letter-spacing: 0.02em;
     text-align: left;
     color: #434455;
-
 }
 .adress:hover {
     color: #404bbf;
@@ -87,12 +92,6 @@ ul {
     color: #4d5ae5;
 }
 .esfybtxt {
-    /*
-    font-size: 56px;
-    line-height: 1.07;
-    text-align: center;
-    letter-spacing: 0.02em;
-    color: #ffffff; */
     line-height: 1.07;
     color: #ffffff;
     font-family: Roboto;
@@ -103,15 +102,6 @@ ul {
     text-align: center;
 }
 .esfybbutton {
-    /*
-    background-color: #4D5AE5;
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: #ffffff;
-    cursor: pointer; */
     background-color: #4D5AE5;
     color: #ffffff;
     font-family: "Roboto", sans-serif;
@@ -129,12 +119,7 @@ ul {
     background-color: #404bbf;
 }
 .nullseen {
-/*    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em; */
     color: #2e2f42; 
-
     font-family: Roboto;
     font-size: 20px;
     font-weight: 500;
@@ -144,9 +129,6 @@ ul {
 
 }
 .nullseenp {
-/*    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em; */
     color: #434455;
     font-family: Roboto;
     font-size: 16px;
@@ -159,13 +141,6 @@ ul {
     background-color: #F4F4FD;
 }
 .otm {
-/*   font-weight: 500;
-    font-size: 36px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-    text-align: center;
-    text-transform: capitalize */
     line-height: 1.11;
     color: #2e2f42;
     font-family: Roboto;
@@ -179,12 +154,6 @@ ul {
     background-color: #FFFFFF
 }
 .listh {
-/*    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;*/
-
     color: #2e2f42;
     font-family: Roboto;
     font-size: 20px;
@@ -194,9 +163,6 @@ ul {
     text-align: center;
 }
 .limg {
-/*    font-size: 36px;
-    line-height: 1.11;*/
-
     line-height: 1.11;
     font-family: Roboto;
     line-height: 1.11;
@@ -219,9 +185,6 @@ ul {
     text-align: left;
 }
 .footp {
-/*    line-height: 1.5;
-    color: #F4F4FD;
-    letter-spacing: 0.02em; */
     line-height: 1.5;
     color: #F4F4FD;
     font-family: Roboto;
@@ -232,12 +195,6 @@ ul {
     text-align: left;
 }
 .items {
-/*    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42; */
-
     color: #2e2f42;
     font-family: Roboto;
     font-size: 20px;
@@ -247,9 +204,6 @@ ul {
     text-align: left;
 }
 .itemsp {
-/*    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em; */
     font-family: Roboto;
     font-size: 16px;
     font-weight: 400;
@@ -257,6 +211,27 @@ ul {
     letter-spacing: 0.02em;
     text-align: left;
 }
+.dashead {
+    border-bottom: 1px solid #e7e9fc;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
 .some {
     display: flex;
