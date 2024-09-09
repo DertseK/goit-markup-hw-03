@@ -243,6 +243,7 @@ ul {
 }
 .adresslist {
     display: flex;
+    gap: 40px;
 }
 
 
