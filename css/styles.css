@@ -214,15 +214,15 @@ ul {
 .dashead {
     border-bottom: 1px solid #e7e9fc;
 }
-.headcon {
+/*.headcon {
     display: flex;
     justify-content: space-between;
-}
+} */
 .headnav {
     display: flex;
     align-items: center;
 }
-.container {
+.headcon {
     max-width: 1158px;
     margin-left: auto;
     margin-right: auto;
