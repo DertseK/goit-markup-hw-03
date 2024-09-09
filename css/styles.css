@@ -241,7 +241,9 @@ ul {
     display: flex;
     gap: 40px;
 }
-
+.adresslist {
+    display: flex;
+}
 
 
 
