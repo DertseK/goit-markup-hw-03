@@ -12,6 +12,9 @@ footer {
 a{
      text-decoration: none;
 }
+img {
+    display: block;
+}
 ul {
     list-style: none;
 }
