@@ -248,6 +248,9 @@ ul {
     display: flex;
     justify-content: space-between;
 }
+.headlogo {
+    margin-right: 76px
+}
 
 .head .logo2 {
     margin-right: 76px;
