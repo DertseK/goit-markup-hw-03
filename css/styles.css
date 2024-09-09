@@ -64,6 +64,7 @@ ul {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    
 }
 .logo2 {
     color: #2e2f42;
@@ -254,7 +255,9 @@ ul {
 .head .headlogo {
     margin-right: 76px
 }
-
+.logo .headlogo{
+    margin-right: 76px;
+}
 .head .logo2 {
     margin-right: 76px;
 }
