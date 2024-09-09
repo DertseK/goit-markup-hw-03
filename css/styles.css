@@ -219,7 +219,8 @@ ul {
     justify-content: space-between;
 }
 .headnav {
-    width: 1158px;
+    display: flex;
+    align-items: center;
 }
 
 
