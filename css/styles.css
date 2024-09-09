@@ -214,7 +214,10 @@ ul {
 .dashead {
     border-bottom: 1px solid #e7e9fc;
 }
-
+.headcon {
+    display: flex;
+    justify-content: space-between;
+}
 
 
 
