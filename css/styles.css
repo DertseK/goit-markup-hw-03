@@ -219,10 +219,6 @@ ul {
     display: flex;
     justify-content: space-between;
 }
-/*.headcon {
-    display: flex;
-    justify-content: space-between;
-} */
 
 .headnav {
     display: flex;
@@ -239,7 +235,6 @@ ul {
     display: flex;
     gap: 40px;
 }
-
 
 
 
