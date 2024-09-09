@@ -255,6 +255,9 @@ ul {
 .head .headlogo {
     margin-right: 76px
 }
+.headnav .logo {
+    margin-right: 76px;
+}
 .logo .headlogo{
     margin-right: 76px;
 }
