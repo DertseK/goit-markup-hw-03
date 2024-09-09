@@ -214,7 +214,7 @@ ul {
 .head {
     border-bottom: 1px solid #e7e9fc;
 }
-.head .headcon {
+.head .container {
     display: flex;
     justify-content: space-between;
 }
