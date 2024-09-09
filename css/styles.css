@@ -53,10 +53,16 @@ ul {
     color: #2e2f42;
 }
 .logolink {
+    display: block;
+        font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding-top: 24px;
+    padding-bottom: 24px;
+/*
+    color: #434455; */
 }
 .logolink:hover {
     color: #404bbf;
