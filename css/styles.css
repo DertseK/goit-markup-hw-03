@@ -243,28 +243,14 @@ ul {
 }
 .head {
     border-bottom: 1px solid #e7e9fc;
-    margin-right: 76px;
 }
 .head .container {
     display: flex;
     justify-content: space-between;
 }
-.headlogo {
-    margin-right: 76px
-}
-.head .headlogo {
-    margin-right: 76px
-}
 .headnav .logo {
     margin-right: 76px;
 }
-.logo .headlogo{
-    margin-right: 76px;
-}
-.head .logo2 {
-    margin-right: 76px;
-}
-
 .headnav {
     display: flex;
     align-items: center;
