@@ -235,7 +235,10 @@ ul {
     padding-left: 15px;
     padding-right: 15px;
 }
-
+.menu {
+    display: flex;
+    gap: 40px;
+}
 
 
 
