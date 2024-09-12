@@ -194,6 +194,7 @@ ul {
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: left;
+  margin-bottom: 8px;
 }
 .nullseenp {
   color: #434455;
@@ -249,7 +250,6 @@ ul {
 .saboutul {
   display: flex;
   gap: 24px;
-  margin-bottom: 8px;
 }
 .saboutli {
   display: flex;
