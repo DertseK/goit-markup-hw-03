@@ -215,11 +215,20 @@ ul {
   font-size: 36px;
   font-weight: 700;
   letter-spacing: 0.02em;
+  margin-bottom: 72px;
   text-align: center;
   text-transform: capitalize;
 }
 .liststhree {
   background-color: #ffffff;
+  width: calc((100% - 3 * 24px) / 4);
+  display: flex;
+  flex-direction: column;
+  border-radius: 0 0 4px 4px;
+}
+.liststhreediv {
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .listh {
   color: #2e2f42;
@@ -229,11 +238,16 @@ ul {
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: center;
+  margin-bottom: 8px;
 }
 .page-main-first-section-item {
   width: calc((100% - 3 * 24px) / 4);
   display: flex;
   flex-direction: column;
+}
+.cot {
+  display: flex;
+  gap: 24px;
 }
 .sectwohid {
   position: absolute;
@@ -268,6 +282,7 @@ ul {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  text-align: center;
 }
 .logothree {
   color: #f4f4fd;
