@@ -245,6 +245,7 @@ ul {
   clip: rect(0 0 0 0);
   width: 1px;
   height: 1px;
+  margin-bottom: 8px;
 }
 .saboutul {
   display: flex;
