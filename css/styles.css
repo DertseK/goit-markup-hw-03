@@ -311,6 +311,7 @@ ul {
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: left;
+  margin-bottom: 8px;
 }
 .itemsp {
   font-family: Roboto;
@@ -356,6 +357,13 @@ ul {
   border-top: none;
   padding: 32px 16px;
 }
+.otmsli {
+  background-color: #ffffff;
+  width: calc((100% - 2 * 24px) / 3);
+  display: flex;
+  flex-direction: column;
+  flex-basis: 360px;
+}
 .menu {
   display: flex;
   gap: 40px;
@@ -377,4 +385,8 @@ ul {
 }
 .foot {
   padding: 100px 0 100px;
+}
+.footlogo {
+  display: inline-block;
+  margin-bottom: 16px;
 }
